@@ -1,3 +1,19 @@
-body {
+@import 'variables';
+@import 'stars';
+@import 'card';
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
   margin: 0;
+}
+
+body {
+  font-family: $main-font;
 }
