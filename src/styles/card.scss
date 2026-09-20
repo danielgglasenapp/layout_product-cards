@@ -41,19 +41,17 @@
   &__rating {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0;
-    margin-bottom: 24px;
-
   }
 
-      &__review {
-      font-size: 10px;
-      padding: 0;
-      font-weight: $font-weight-regular;
-      line-height: 16px;
-      color: $color-text-main;
-    }
+  &__review {
+    font-size: 10px;
+    padding: 0;
+    font-weight: $font-weight-regular;
+    line-height: 16px;
+    color: $color-text-main;
+    margin-bottom: 24px;
+  }
 
   &__price {
     display: flex;
